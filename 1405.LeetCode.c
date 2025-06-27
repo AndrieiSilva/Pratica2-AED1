@@ -107,7 +107,6 @@ int Inserechar (char x, int * flag, struct fila * p) {
         p->MAX = 1;
         return 1;
     }
-
     // tem espaço ?
         // Insere o char
         *flag = 1;
@@ -115,4 +114,9 @@ int Inserechar (char x, int * flag, struct fila * p) {
     // se não
         *flag = 0;
         return 0;
+}
+
+int Verifica(struct fila * p, struct fila * new) {
+    int * k;
+    k = p->ini;
 }
