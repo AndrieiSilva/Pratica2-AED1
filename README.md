@@ -2,40 +2,50 @@
 
 **Nome: Andriei Roshild da Silva**
 
+**Instituição de Ensino: Universidade Federal de Pelotas**
+
+**Curso: Bacharelado em Ciência da Computação**
+
 **Disciplina: Algoritmos e Estruturas de Dados 1**
+
+**Professor: RAFAEL PICCIN TORCHELSEN**
 
 **Turma: M2**
 
-**Instituição de Ensino: Universidade Federal de Pelotas**
-
-# Exercício: Agenda pBuffer
+# Exercício: LeetCode : 1405. Longest Happy String
 ## Descrição do exercício:
-Faça uma agenda com o seguinte menu:
+A string s is called happy if it satisfies the following conditions:
 
-1- Adicionar Pessoa (Nome, Idade, email)
+s only contains the letters 'a', 'b', and 'c'.
+s does not contain any of "aaa", "bbb", or "ccc" as a substring.
+s contains at most a occurrences of the letter 'a'.
+s contains at most b occurrences of the letter 'b'.
+s contains at most c occurrences of the letter 'c'.
+Given three integers a, b, and c, return the longest possible happy string. If there are multiple longest happy strings, return any of them. If there is no such string, return the empty string "".
 
-2- Remover Pessoa
+A substring is a contiguous sequence of characters within a string.
 
-3- Buscar Pessoa
+### **Example 1:**
 
-4- Listar todos
+Input: a = 1, b = 1, c = 7
 
-5- Sair
- 
-O desafio é não poder criar variáveis e sim um buffer de memória (void *pBuffer). Nisso vocês terão que fazer o trabalho que o Sistema Operacional faz para vocês ao organizar a memória.
- 
-Regras:
-Nenhuma variável pode ser declarada em todo o programa, somente ponteiros. Todos os dados do programa devem ser guardados dentro do pBuffer.
+Output: "ccaccbcc"
 
-Nem mesmo como parâmetro de função. Só ponteiros que apontam para dentro do pBuffer.
+Explanation: "ccbccacc" would also be a correct answer.
 
-Exemplo do que não pode: int c; char a; int v[10];  void Funcao(int parametro)
+### **Example 2:**
 
-Não pode usar struct em todo o programa.
+Input: a = 7, b = 1, c = 0
+
+Output: "aabaa"
+
+Explanation: It is the only correct answer in this case.
+
+Constraints:
+
+0 <= a, b, c <= 100
+a + b + c > 0
 
 ## Realização do exercício:
 
-O código funciona como deveria (o que não funciona direito é o VS CODE, que fica dando pause durante a execução, fica escrito no debugger "Pause on Pause");
 
-Testei o código adicionando pessoas, removendo, buscando e listando pessoas da lista. Funcionou certo. 
-### **OBS :** _O código não verifica a entrada, ou seja, ele supõe que o usuário seja "bonzinho"._
