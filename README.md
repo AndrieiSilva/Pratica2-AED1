@@ -48,4 +48,5 @@ a + b + c > 0
 
 ## Realização do exercício:
 
-
+Realizei o planejamento sobre como realizar o exercício em aula, tentei resolver o problema com uma fila de prioridade **dinâmica**, mas o LeetCode não aceitava pois dava erro de **limite de memória excedido**;
+Então apliquei uma fila de prioridade **não dinâmica**, aplicando a mesma estratégia da anterior.
