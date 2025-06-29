@@ -56,4 +56,4 @@ a + b + c > 0
 Realizei o planejamento sobre como realizar o exercício em aula, tentei resolver o problema com uma fila de prioridade **dinâmica**, mas o LeetCode não aceitava pois dava erro de **limite de memória excedido**;
 Então apliquei uma fila de prioridade **não dinâmica**, aplicando a mesma estratégia da anterior.
 
-# LINK DO SUBMIT : [CLIQUE AQUI] [https://leetcode.com/problems/longest-happy-string/submissions/1680640947/]
+# Submit do LeetCode -----------> [LINK](https://leetcode.com/problems/longest-happy-string/submissions/1680640947/)
